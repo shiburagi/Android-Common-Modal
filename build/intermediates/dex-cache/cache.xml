@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Shiburagi/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/library-2.4.0_1da7d80688caca3161db7fcd30c7f010981bd4f1.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_dce03536ed0543f738b18948b84ff7aaef1f8b33.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_85d7773fd8148de2e7a02c039562b754e30c45e2.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_0c58931e5b4d0c160bc297853e8cbfa10b597f1c.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.1_b2e46db9130aaedf831e659a41619ef3d261baac.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_21644b945f600205b4cb1b01a6fb09b94cf83637.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/Android-Common-Modal/commonmodal/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="052463b7c2a5dac3da4e16881b2a046f1738851e">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/Android-Common-Modal-commonmodal-unspecified_e9b773ef0cbd566fe1704b7df2d494912e18a5b2.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/Android-Common-Modal/stylishwidget/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="482528a138a37ad31ac6e74c22b9df20a1f3a764">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/Android-Common-Modal-stylishwidget-unspecified_29ce69ce4063b8d276ce36c7d86c8cddae965275.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_a5baf40b63097bef569f9cd7fda4ac2cac94922a.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_3df7ac5d722aef05c7d6502688f904f288625240.jar" />
+    </item>
+    <item
+        jar="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/Shiburagi/Desktop/Android-Common-Modal/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_653a9dfcb89c1fdc06163f1052bc3d755e79c146.jar" />
+    </item>
+
+</items>

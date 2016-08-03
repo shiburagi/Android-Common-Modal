@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCommonModalExample</string>
+    <string name="email">E-Mail</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="passwordreset">Password Reset</string>
+    <string name="register">Register</string>
+    <string name="connecting">Connecting...</string>
+</resources>

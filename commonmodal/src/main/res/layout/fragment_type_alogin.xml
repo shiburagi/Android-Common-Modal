@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_signup">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                    <com.app.infideap.stylishwidget.view.ATextView
+                        android:id="@+id/textView_trademark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/widget_gap" />
+
+                        <com.app.infideap.stylishwidget.view.AEditText
+                            android:id="@+id/editText_username"
+                            style="@style/EditText.RoundBorder.Transparent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="25"
+                            android:hint="@string/username" />
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/widget_gap" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.app.infideap.stylishwidget.view.AEditText
+                                android:id="@+id/editText_password"
+                                style="@style/EditText.RoundBorder.Transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="25"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:paddingEnd="40dp"
+                                android:paddingRight="40dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView_visibility"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/editText_password"
+                                android:layout_alignRight="@+id/editText_password"
+                                android:layout_alignTop="@+id/editText_password"
+                                android:paddingLeft="7dp"
+                                android:paddingRight="7dp"
+                                app:srcCompat="@drawable/ic_visibility_off_white_24dp" />
+                        </RelativeLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/widget_gap" />
+
+                        <com.app.infideap.stylishwidget.view.AButton
+
+                            android:id="@+id/button_login"
+                            style="@style/Button.Default.Outline"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login" />
+
+                        <com.app.infideap.stylishwidget.view.AButton
+                            android:id="@+id/button_forgot_password"
+                            style="@style/Button.Transparent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/forgotmessage"
+                            android:textAllCaps="false" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone">
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1px"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/textView_or"
+                                android:background="@color/colorLine" />
+
+                            <com.app.infideap.stylishwidget.view.ATextView
+                                android:id="@+id/textView_or"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:paddingLeft="@dimen/widget_gap"
+                                android:paddingRight="@dimen/widget_gap"
+                                android:text="@string/or"
+                                android:textAllCaps="true" />
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1px"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/textView_or"
+                                android:background="@color/colorLine" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <com.app.infideap.stylishwidget.view.ATextView
+                                android:id="@+id/textView_progress"
+                                android:textColor="@color/colorWhite"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+    <com.app.infideap.stylishwidget.view.AButton
+        android:id="@+id/button_signup"
+        style="@style/Button.SemiTransparent.Fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="@string/signupmessage"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
